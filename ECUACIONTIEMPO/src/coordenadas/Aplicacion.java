@@ -6,10 +6,10 @@ public class Aplicacion {
 
 	public static void main(String[] args) {
 		
-		DiaDelAÃ±o nuevoDia = new DiaDelAÃ±o(4,3,2019);
+		DiaDelAño nuevoDia = new DiaDelAño(4,3,2019);
 		
 		System.out.println(nuevoDia.esBisiesto());
-		System.out.println(nuevoDia.getDiaDelAÃ±o());
+		System.out.println(nuevoDia.getDiaDelAño());
 		System.out.println(nuevoDia.getAnguloFromDia());
 		System.out.println(nuevoDia.getEcuacionTiempo());
 		
