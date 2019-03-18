@@ -6,15 +6,17 @@ public class Aplicacion {
 
 	public static void main(String[] args) {
 		
-		DiaDelAÒo nuevoDia = new DiaDelAÒo(4,3,2019);
+		DiaDelA√±o nuevoDia = new DiaDelA√±o(4,3,2019);
 		
 		System.out.println(nuevoDia.esBisiesto());
-		System.out.println(nuevoDia.getDiaDelAÒo());
+		System.out.println(nuevoDia.getDiaDelA√±o());
 		System.out.println(nuevoDia.getAnguloFromDia());
 		System.out.println(nuevoDia.getEcuacionTiempo());
 		
 		/*Me voy a cagar en todo a ver si esto me sale de una vez*/
-		/*Que est· pasando por que no va*/
+		/*Que est√° pasando por que no va*/
+		
+		/*Sigo a√±adiendo comentarios para hacer pruebas con eclipse*/
 	}
 
 }
