@@ -1,12 +1,12 @@
 package coordenadas;
 
-public class DiaDelAño {
+public class DiaDelAno {
 	
 	private int dia;
 	private int mes;
 	private int año;
 	
-	public DiaDelAño(int d, int m, int a){
+	public DiaDelAno(int d, int m, int a){
 		dia = d;
 		mes = m;
 		año = a;
@@ -16,7 +16,7 @@ public class DiaDelAño {
 		return (año % 4 == 0 && año % 100 != 0 || año % 400 == 0);
 	}
 	
-	public int getDiaDelAño(){
+	public int getDiaDelAno(){
 		
 		int diaDelAño = 0;
 		switch (mes){
@@ -50,7 +50,7 @@ public class DiaDelAño {
 	public double getAnguloFromDia(){
 		
 		double anguloRadianes = ((2*Math.PI)/365)*
-				(getDiaDelAño()-1);
+				(getDiaDelAno()-1);
 		return anguloRadianes;
 	}
 	
