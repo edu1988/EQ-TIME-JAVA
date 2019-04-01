@@ -13,6 +13,7 @@ public class Aplicacion {
 		System.out.println(nuevoDia.getAnguloFromDia());
 		System.out.println(nuevoDia.getEcuacionTiempo());
 		/*Borro comentarios y solo dejo uno*/
+		/*A ver si de una vez consigo importar de github a eclipse*/
 	}
 
 }
