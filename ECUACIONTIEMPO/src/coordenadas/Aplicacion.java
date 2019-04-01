@@ -12,19 +12,7 @@ public class Aplicacion {
 		System.out.println(nuevoDia.getDiaDelAno());
 		System.out.println(nuevoDia.getAnguloFromDia());
 		System.out.println(nuevoDia.getEcuacionTiempo());
-		
-		/*Me voy a cagar en todo a ver si esto me sale de una vez*/
-		/*Que estÃ¡ pasando por que no va*/
-		
-		/*Sigo aÃ±adiendo comentarios para hacer pruebas con eclipse*/
-		
-		/*Mas comentarios en una nueva rama para hacer pruebas*/
-		
-		/*Y seguimos haciendo cambios y escribiendo comentarios
-		pero esta vez otra vez online y supuestamente en una rama
-		nueva*/
-		
-		/*Mas comentarios*/
+		/*Borro comentarios y solo dejo uno*/
 	}
 
 }
